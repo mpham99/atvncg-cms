@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Heart, Users, Calendar, Instagram, Facebook, Youtube, Twitter, ArrowLeft, TrendingUp, Hash, Crown, Award, Video } from 'lucide-react';
 import SectionDivider from '@/components/SectionDivider';
 import { getPayload } from 'payload'
-import config from '../../../../payload-config'
+import config from '@payload-config'
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
     const payload = await getPayload({ config })

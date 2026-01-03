@@ -6,7 +6,7 @@ import ActiveCampaigns from '@/components/ActiveCampaigns';
 import LatestNews from '@/components/LatestNews';
 import SectionDivider from '@/components/SectionDivider';
 import { getPayload } from 'payload'
-import config from '../../payload-config'
+import config from '@payload-config'
 
 export const metadata = {
     title: 'Call Me By Fire - Fan Hub | Home',

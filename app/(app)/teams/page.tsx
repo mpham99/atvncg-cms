@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Users, Trophy, TrendingUp, Hash } from 'lucide-react';
 import { getPayload } from 'payload'
-import config from '../../../payload-config'
+import config from '@payload-config'
 import SectionDivider from '@/components/SectionDivider';
 
 export const metadata = {

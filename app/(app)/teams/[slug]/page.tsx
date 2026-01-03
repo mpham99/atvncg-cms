@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowLeft, Users, Trophy, TrendingUp, Hash, Instagram, Facebook, Twitter, Youtube, Crown } from 'lucide-react';
 import { getPayload } from 'payload'
-import config from '../../../../payload-config'
+import config from '@payload-config'
 import SectionDivider from '@/components/SectionDivider';
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {

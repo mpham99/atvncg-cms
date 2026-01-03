@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Heart, Users } from 'lucide-react';
 import { getPayload } from 'payload'
-import config from '../payload-config'
+import config from '@payload-config'
 
 async function getFeaturedArtists() {
     const payload = await getPayload({ config })
